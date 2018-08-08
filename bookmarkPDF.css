@@ -1,0 +1,80 @@
+body {
+	height:100%;
+	font-family: 'Montserrat', sans-serif;
+	background: #00467F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+#header {
+	width:320px;
+	margin: 0px auto;
+	font-size:.70em;
+	text-align:center;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#main {
+	width:380px;
+	height:800px;
+	margin: 0px auto;
+	padding:5px;
+	background-color: rgba(11, 12, 12, 0.3);
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	box-shadow: 3px 3px 3px rgba(0,0,0, 0.1);
+	border-radius: 10px;
+
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none; 
+	border: 2px solid #fff;
+}
+
+.buttonHolder {
+	text-align:center;
+	height:20px;
+	margin-bottom: 20px;
+}
+
+label,
+textarea {
+    display: block;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+label {
+	margin-top: 10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+
+textarea {
+	border-radius: 4px;
+	border: 2px solid #999;
+	line-height: 1.5px
+	font-size: 1.0em;
+	resize: none;
+	width:320px;
+	height:320px;
+	margin: 0px auto;
+	
+}
+
+button {
+	border:0;
+	line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+}
